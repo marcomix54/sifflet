@@ -172,30 +172,30 @@ def patch_monitor(bearer_token, tenant, monitor_id, tag_monitor_transferred):
 def main():
     ###### Please update this section ######
     # Update bearer_token
-    bearer_token = "eyJhbGciOiJIUzUxMiJ9.eyJqdGkiOiI5YWQ5NThmMS05MTNlLTQ2ZWItOGU3YS1jZWZkNTdmNDZhMTkiLCJpc3MiOiJBY2Nlc3NUb2tlblNlcnZpY2UiLCJleHAiOjE3Nzk0MDAxNDIsImF1dGhvcml0aWVzIjoiQWRtaW4ifQ.7VbzgzcYk5ZMi82Ws6mMy2Nug14s3UcWOGyQlWHL1U7chDIhchE-Gs-qYnMHLtpAeyzFtNEXYtu1Uw3rfc0v9A"
+    bearer_token = "XXXXX"
     # Update tenant name e.g. demo for https://demo.siffletdata.com
-    tenant = "onboarding"
+    tenant = "XXXXX"
 
     # Update path_origin_monitors_yaml
-    path_origin_monitors_yaml = "/Users/marcmontanari/Documents/Codes/Transfer-Monitors-Source/yaml_origin"
+    path_origin_monitors_yaml = "/XXXXX/yaml_origin"
     # csv name for origin monitors (no need to change)
     csv_origin_monitors = "origin_monitors"
     # Origin source UUID
-    origin_UUID = "5d862786-4998-4091-baf9-c44a4383e48d"
+    origin_UUID = "XXXXXXXX-XXXX-XXXX-XXXX-XXXXXXXXXXXX"
 
     # Update path_destination_monitors_yaml
-    path_destination_monitors_yaml = "/Users/marcmontanari/Documents/Codes/Transfer-Monitors-Source/yaml_destination"
+    path_destination_monitors_yaml = "/XXXXX/yaml_destination"
     # Destination source UUID
-    destination_UUID = "79a5e543-40b3-4651-b4e3-6eff5c38a447"
+    destination_UUID = "XXXXXXXX-XXXX-XXXX-XXXX-XXXXXXXXXXXX"
     
     # Prefix to add to all duplicated monitors to new source
     prefix_new_monitors = "Source XYZ"
 
     # Tag UUIDs
     # (Optional) - UUID of tag to use in query to find which monitors should be transferred
-    tag_monitor_to_transfer = "07247885-7728-4bbd-976d-c6510f95369c"
+    tag_monitor_to_transfer = "XXXXXXXX-XXXX-XXXX-XXXX-XXXXXXXXXXXX"
     # (Optional) - UUID of tag to use to flag when a monitor has been transferred
-    tag_monitor_transferred = "4badc485-4436-48c2-88d5-5ac869af8611"
+    tag_monitor_transferred = "XXXXXXXX-XXXX-XXXX-XXXX-XXXXXXXXXXXX"
 
 
 
